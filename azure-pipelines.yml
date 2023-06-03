@@ -12,5 +12,5 @@ steps:
 
   - script: |
       docker build -t sennepieters/dockertest:1.0 .
-      docker run -d -p 8080:8080 c749fb763a850465c0580f9737817448a94a48ada8a00f1779a483d8efdaee29
+      docker run -d -p 8080:8080 20907da2c48c4cda6d6ef752a4d43baed2b59f222cd751c30a868c0b1dee62de
     displayName: 'Build and run Docker container'
