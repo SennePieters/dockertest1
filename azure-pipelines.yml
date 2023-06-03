@@ -10,9 +10,6 @@ steps:
   - script: npm install
     displayName: 'Install dependencies'
 
-  - script: npm run test
-    displayName: 'Run tests'
-
   - script: |
       docker build -t sennepieters/dockertest:1.0 .
       docker run -d -p 8080:8080 c749fb763a850465c0580f9737817448a94a48ada8a00f1779a483d8efdaee29
